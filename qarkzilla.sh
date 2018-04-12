@@ -15,12 +15,6 @@
 # usage: the command "sudo ./qarkzilla.sh 494745" will archive 8ch.net/qresearch/res/494745.html
 # into a folder named 494745, with _both_ the display thumbnails and larger images preserved.
 #
-# ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAw+SpEEp7mvF8hwSSu4tSdEtpPUsPr1r6uu8f9Bb6ouvAZyl9ugfuvjlxz
-# rbqTHdM/A/ICmfmwJaebssfccRLt5VLtg93PM8YnV2VgUjcyZu0mwtEC/n+HFX/zWHR0lpkN1YGI+EclCpTkFmuCmwSdA
-# N2guyx3l/n/KORI6O2sQgP11lNX0K3i9BLPmKbJdpTXkbp3rJc6VtaSz4VJQR8OXiqNh2BN5KsolynPPeUA5m5U+o5ei2
-# j3uaN9TULq5yzXMSAkh+hOiLQwlZilk1xrjtQO++u7R8xnSBNRDvmvbr7hl2K4d+HEvyE+7YbzAThezbvxXjhlz+z9EY+
-# TVlatw== rsa-key-20180412
-#
 # grab the main page and all html assets (-P)
 wget -E -H -k -K -p -nd -nv \
 -e robots=off --limit-rate=100k --wait=10 --random-wait \
